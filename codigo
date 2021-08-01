@@ -1,0 +1,11 @@
+n = int(input())
+fib_list = [ ]
+a=1 
+b=0
+for i in range(n ):
+    c=a+b 
+    a=b 
+    b=c
+    fib_list.append(str(a))
+    fib_string = ' '.join(fib_list)
+print(fib_string)
